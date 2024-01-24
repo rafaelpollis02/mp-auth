@@ -1,7 +1,6 @@
 # mp-auth
 
-Started Keycloak in Docker :
-Command : docker run --name keycloak -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -p 8180:3030 quay.io/keycloak/keycloak:17.0.0 start-dev
+Started Keycloak in Docker : docker run --name keycloak -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -p 8180:3030 quay.io/keycloak/keycloak:17.0.0 start-dev
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
